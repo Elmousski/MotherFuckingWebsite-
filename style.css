@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'pacifico';
+    src: url('font/Pacifico.ttf') format('truetype');
+
+}
+
+
+
+body
+{
+background: url("images.jpg" ) fixed;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 2.5em;
+	width: 150%;
+}
+
+.soustitre
+{
+	text-align: center;
+}
+
+p
+{
+color: rgb(25,0,25);
+font-family: pacifico, arial;
+
+}
+
+.flottant
+{
+	float: right;
+	box-shadow: 6px 6px 6px black;
+
+}
+
+.flottant2
+{
+	clear: left;
+}
+
+h2
+{
+	border: blue 5px double;
+	border-radius: 400px / 10px;
+	box-shadow: 6px 6px 25px gray;
+	text-align: center;
+	background-color: white;
+}
+
+.enbleu
+{
+	color: blue;
+}
